@@ -1,6 +1,6 @@
 <?php
 	$serverName = "192.168.102.34";
-	$connectionInfo = array("Database" => "Database01", "UID" => "user01", "PWD" => "P@ssw0rd!");
+	$connectionInfo = array("Database" => "Database01", "UID" => "user01", "PWD" => "IniAdalahPassword1!");
 	$conn = sqlsrv_connect($serverName, $connectionInfo);
 	if (!$conn) {
 		echo("Connection Failed, please re-check your DB sredential");
