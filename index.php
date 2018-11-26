@@ -1,5 +1,5 @@
 <?php
-	$serverName = "192.168.102.34";
+	$serverName = "192.168.102.45";
 	$connectionInfo = array("Database" => "Database01", "UID" => "user01", "PWD" => "IniAdalahPassword1!");
 	$conn = sqlsrv_connect($serverName, $connectionInfo);
 	if (!$conn) {
